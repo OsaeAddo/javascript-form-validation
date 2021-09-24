@@ -23,3 +23,9 @@ form{
     font-weight: bold;
     margin-bottom: 1.25rem;
 }
+
+/* Label section */
+label{
+    display: block;
+    margin-bottom: .125rem;
+}
