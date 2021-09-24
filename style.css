@@ -47,3 +47,23 @@ form div{
 input:focus{
     border: 2px solid #f2796e;
 }
+form div i{
+    position: absolute;
+    padding: 10px;
+}
+
+/* Error section */
+.failure-icon, .error{
+    color: red;
+}
+.success-icon{
+    color: green;
+}
+.failure-icon, .success-icon{
+    right: 0;
+    opacity: 0;
+}
+.error{
+    font-size: 14.5px;
+    margin-top: 5px;
+}
