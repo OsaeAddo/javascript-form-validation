@@ -10,10 +10,49 @@
     <div class="container">
         <form id="form">
             <div class="title">Get Started</div>
-            
-            <div></div>
-            <div></div>
-            <div></div>
+            <!-- Username Section -->
+            <div>
+                <label for="username">User Name</label>
+                <i class="fas fa-user"></i>
+
+                <input type="text" name="username" id="username" placeholder="Osae Addo">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <!-- Inject errors from Js into this tag -->
+                <div class="error"></div>
+            </div>
+
+            <!-- Email Section -->
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+
+                <input type="email" name="email" id="email" placeholder="name@gmail.com">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <!-- Inject errors from Js into this tag -->
+                <div class="error"></div> 
+            </div>
+
+            <!-- Password Section -->
+            <div>
+                <label for="email">Password</label>
+                <i class="fas fa-lock"></i>
+
+                <input type="password" name="password" id="password" placeholder="Password here">
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <!-- Inject errors from Js into this tag -->
+                <div class="error"></div>
+            </div>
+
+            <button id="btn" type="submit">Submit</button>
         </form>
     </div>
 </body>
