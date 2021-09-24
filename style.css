@@ -29,3 +29,21 @@ label{
     display: block;
     margin-bottom: .125rem;
 }
+
+/* Input section */
+form div input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 0 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+form div{
+    position: relative;
+    margin-bottom: 0.945rem;
+}
+input:focus{
+    border: 2px solid #f2796e;
+}
