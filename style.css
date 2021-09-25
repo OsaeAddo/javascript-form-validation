@@ -10,6 +10,8 @@ body{
 
 /* Form Section */
 form{
+    width: 45%;
+    max-width: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
