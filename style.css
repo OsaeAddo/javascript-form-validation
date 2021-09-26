@@ -152,6 +152,9 @@ button:hover{
     .container{
         flex-direction: column;
     }
+    .content{
+        min-height: 100vh;
+    }
     form, .content{
         width: 100%;
     }
@@ -166,5 +169,11 @@ button:hover{
 @media (max-width: 425px){
     form{
         padding: 20px;
+    }
+    .content{
+        min-height: 75vh;
+    }
+    .image{
+        height: 40vh;
     }
 }
